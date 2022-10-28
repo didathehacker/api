@@ -2,25 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Easy Checker Homepage</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-    <link href="style.css" rel="stylesheet" > 
+    <title>Clock In Page</title>
+    <link href="style.css" rel="stylesheet"> 
   </head>
   <body>
     <header>
-        <a href="homepage.html">Easy Checker</a>
+        <a href="homepage.html">Back</a>
         <a href="https://techcells.com/">TechCells</a>
     </header>
     <main>
         <div class="rcorners">
             <img class="center" src="logo-techcells.svg" alt="TechCells logo">
-            <h1>Welcome to TechCells!</h1>
-            <hr>
             <br>
-            <h2>Would you like to clock in or out?</h2>
+            <h2>Enter your PIN</h2>
+            <input name="pincode" type="password" placeholder="4-digit PIN" inputmode="numeric" maxlength="4">
             <br>
-            <a href="clockin.html" class="button-17">Clock In</a>
-            <a href="clockout.html" class="button-17">Clock Out</a>
+            <br>
+            <button onclick="location.href='clockin-done.html'" type="button" class="button-17">Clock In</button>
         </div>
     </main>
     <footer>

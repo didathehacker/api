@@ -29,6 +29,11 @@ h1 {
 }
 
 h2 {
+    font-size: 30px;
+    line-height: 10px;
+}
+
+h3 {
     font-size: 20px;
     line-height: 10px;
 }
@@ -50,12 +55,44 @@ a {
 a:hover{
     color: #3AADA9;
 }
-#code-align{
-    font-size: 24px;
-    display: inline-block; 
-    text-align: left;
-    padding: 0px 20px 40px 20px;
+
+label {
+    display: grid;
 }
+
+input {
+    margin: 15px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 90px;
+    border: solid #2e3c39;
+}
+
+td,th {
+    text-align: left;
+    padding: 15px;
+}
+#table {
+    max-width:100%;
+    white-space:nowrap;
+    display: inline-block;
+}
+#remember-password {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.checkboxes {
+    text-align:center;
+  }
+  
+  .checkboxes input{
+    margin: 0px 0px 0px 0px;
+  }
+  
+  .checkboxes label{
+    margin: 0px 20px 0px 3px;
+  }
 .center {
     display: block;
     margin-left: auto;
@@ -81,8 +118,9 @@ a:hover{
     cursor: pointer;
     display: inline-flex;
     fill: currentcolor;
+    font-family:'Poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     height: 48px;
     justify-content: center;
     letter-spacing: .25px;
